@@ -1,0 +1,35 @@
+/*// Стилизація проєкта -*/
+/*// index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
+/*//     user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+/*//     блоки з короткою іфною про post - в ряд по 5 .*/
+/*//     post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+/*//     Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+
+
+
+
+.user-item {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: white;
+    color: green;
+    border: none;
+    cursor: pointer;
+}
